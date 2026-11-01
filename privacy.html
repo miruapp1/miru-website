@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy | Miru</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       background: #faf9f6;
@@ -13,11 +17,13 @@
       font-family: Arial, sans-serif;
       line-height: 1.7;
     }
+
     main {
       max-width: 760px;
-      margin: 70px auto;
+      margin: 60px auto;
       padding: 0 24px;
     }
+
     .logo {
       font-size: 48px;
       font-weight: 300;
@@ -25,203 +31,257 @@
       letter-spacing: -2px;
       text-align: center;
     }
+
     h1 {
       font-size: 32px;
       text-align: center;
-      margin-bottom: 8px;
+      margin: 12px 0 8px;
     }
+
     h2 {
       font-size: 20px;
-      margin-top: 36px;
+      margin: 30px 0 12px;
       color: #607b66;
+      line-height: 1.4;
     }
-    p, li { font-size: 15px; }
-    a { color: #718e78; }
+
+    p, li {
+      font-size: 15px;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    ul {
+      padding-left: 24px;
+      margin: 0 0 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #718e78;
+    }
+
     .updated {
       text-align: center;
       color: #718075;
       font-size: 13px;
-      margin-bottom: 45px;
+      margin-bottom: 40px;
     }
+
     footer {
       text-align: center;
-      margin-top: 65px;
+      margin-top: 55px;
       padding: 25px 0;
       border-top: 1px solid #dce4dc;
       font-size: 14px;
     }
+
+    footer p {
+      font-size: 13px;
+      margin-top: 12px;
+      color: #718075;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        margin: 36px auto;
+        padding: 0 20px;
+      }
+
+      .logo {
+        font-size: 42px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      h2 {
+        font-size: 19px;
+      }
+    }
   </style>
 </head>
+
 <body>
-<main>
-  <div class="logo">miru</div>
-  <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: November 1, 2026</p>
+  <main>
+    <div class="logo">miru</div>
 
-  <p>
-    Welcome to Miru. This Privacy Policy explains
-    how we collect, use, share, and protect
-    information when you use the Miru mobile
-    application and website.
-  </p>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: November 1, 2026</p>
 
-  <h2>1. Information We Collect</h2>
-  <p>
-    When you use Miru, we may collect the following
-    information:
-  </p>
-  <ul>
-    <li>
-      Account information, including your email
-      address, username, display name, and
-      authentication information.
-    </li>
-    <li>
-      Profile information, including any profile
-      photo you choose to upload.
-    </li>
-    <li>
-      Movie and TV activity, including watched
-      titles, rankings, watchlists, and favorites.
-    </li>
-    <li>
-      Social activity, including follows, likes,
-      comments, and other interactions.
-    </li>
-    <li>
-      Technical information necessary to operate
-      the app, maintain security, and troubleshoot
-      problems.
-    </li>
-  </ul>
+    <p>
+      Welcome to Miru. This Privacy Policy explains
+      how we collect, use, share, and protect
+      information when you use the Miru mobile
+      application and website.
+    </p>
 
-  <h2>2. How We Use Information</h2>
-  <p>We use information to:</p>
-  <ul>
-    <li>Create and maintain your account.</li>
-    <li>Save and display your rankings and watchlists.</li>
-    <li>Enable social features and interactions.</li>
-    <li>Provide support and respond to inquiries.</li>
-    <li>Maintain app functionality and security.</li>
-    <li>Improve the user experience.</li>
-  </ul>
+    <h2>1. Information We Collect</h2>
+    <p>
+      When you use Miru, we may collect the following
+      information:
+    </p>
+    <ul>
+      <li>
+        Account information, including your email
+        address, username, display name, and
+        authentication information.
+      </li>
+      <li>
+        Profile information, including any profile
+        photo you choose to upload.
+      </li>
+      <li>
+        Movie and TV activity, including watched
+        titles, rankings, watchlists, and favorites.
+      </li>
+      <li>
+        Social activity, including follows, likes,
+        comments, and other interactions.
+      </li>
+      <li>
+        Technical information necessary to operate
+        the app, maintain security, and troubleshoot
+        problems.
+      </li>
+    </ul>
 
-  <h2>3. Public Profiles and Social Activity</h2>
-  <p>
-    Miru is a social platform for discovering,
-    tracking, and ranking movies and television.
-    Your profile, rankings, watchlists, and
-    certain activity may be visible to other
-    Miru users, even if they do not follow you.
-  </p>
-  <p>
-    Following another user does not currently
-    require their approval. Please consider
-    this when sharing information through Miru.
-  </p>
+    <h2>2. How We Use Information</h2>
+    <p>We use information to:</p>
+    <ul>
+      <li>Create and maintain your account.</li>
+      <li>Save and display your rankings and watchlists.</li>
+      <li>Enable social features and interactions.</li>
+      <li>Provide support and respond to inquiries.</li>
+      <li>Maintain app functionality and security.</li>
+      <li>Improve the user experience.</li>
+    </ul>
 
-  <h2>4. Authentication and Service Providers</h2>
-  <p>
-    Miru uses Supabase to support account
-    authentication and database services.
-    Depending on your chosen sign-in method,
-    authentication may also involve Apple
-    or Google.
-  </p>
-  <p>
-    These providers may process information
-    necessary to deliver their respective
-    services, subject to their own privacy
-    practices.
-  </p>
-<h2>Push Notifications</h2>
-<p>
-  Miru may request permission to send push
-  notifications. If you enable notifications,
-  we may collect and store a device push token
-  to deliver notifications related to your
-  account or activity.
-</p>
-<p>
-  You can manage notification permissions
-  through your device settings.
-</p>
-  <h2>5. Sharing of Information</h2>
-  <p>
-    Information you make available through
-    Miru's social features may be viewed by
-    other users.
-  </p>
-  <p>
-    We may also share information with service
-    providers as necessary to operate the app,
-    comply with legal obligations, or protect
-    the security of our services.
-  </p>
+    <h2>3. Public Profiles and Social Activity</h2>
+    <p>
+      Miru is a social platform for discovering,
+      tracking, and ranking movies and television.
+      Your profile, rankings, watchlists, and
+      certain activity may be visible to other
+      Miru users, even if they do not follow you.
+    </p>
+    <p>
+      Following another user does not currently
+      require their approval. Please consider
+      this when sharing information through Miru.
+    </p>
 
-  <h2>6. Data Security and Retention</h2>
-  <p>
-    We use reasonable technical and
-    organizational measures intended to
-    protect information.
-  </p>
-  <p>
-    We retain information as needed to provide
-    Miru's services and for legitimate
-    operational, security, or legal purposes.
-    No method of electronic storage or
-    transmission is completely secure.
-  </p>
+    <h2>4. Authentication and Service Providers</h2>
+    <p>
+      Miru uses Supabase to support account
+      authentication and database services.
+      Depending on your chosen sign-in method,
+      authentication may also involve Apple
+      or Google.
+    </p>
+    <p>
+      These providers may process information
+      necessary to deliver their respective
+      services, subject to their own privacy
+      practices.
+    </p>
 
-  <h2>7. Account Deletion</h2>
-  <p>
-    You can request deletion of your Miru
-    account through the account deletion
-    option in the app's Settings.
-  </p>
-  <p>
-    Account deletion initiates removal of your
-    account and associated information.
-    Certain information may be retained where
-    required or permitted by applicable law.
-  </p>
-  <p>
-    If you need assistance, contact
-    <a href="mailto:support@getmiru.app">
-      support@getmiru.app
-    </a>.
-  </p>
+    <h2>5. Push Notifications</h2>
+    <p>
+      Miru may request permission to send push
+      notifications. If you enable notifications,
+      we may collect and store a device push
+      token to deliver notifications related
+      to your account or activity.
+    </p>
+    <p>
+      You can manage notification permissions
+      through your device settings.
+    </p>
 
-  <h2>8. Children's Privacy</h2>
-  <p>
-    Miru is not directed to children under 13.
-    If we become aware that we have collected
-    personal information from a child under 13
-    without appropriate authorization, we will
-    take steps to address it.
-  </p>
+    <h2>6. Sharing of Information</h2>
+    <p>
+      Information you make available through
+      Miru's social features may be viewed
+      by other users.
+    </p>
+    <p>
+      We may also share information with service
+      providers as necessary to operate the app,
+      comply with legal obligations, or protect
+      the security of our services.
+    </p>
 
-  <h2>9. Changes to This Policy</h2>
-  <p>
-    We may update this Privacy Policy as Miru
-    evolves. Changes will be reflected by
-    updating the date at the top of this page.
-  </p>
+    <h2>7. Data Security and Retention</h2>
+    <p>
+      We use reasonable technical and
+      organizational measures intended to
+      protect information.
+    </p>
+    <p>
+      We retain information as needed to provide
+      Miru's services and for legitimate
+      operational, security, or legal purposes.
+      No method of electronic storage or
+      transmission is completely secure.
+    </p>
 
-  <h2>10. Contact Us</h2>
-  <p>
-    For privacy questions or requests, contact:
-    <a href="mailto:hello@getmiru.app">
-      hello@getmiru.app
-    </a>.
-  </p>
+    <h2>8. Account Deletion</h2>
+    <p>
+      You can request deletion of your Miru
+      account through the account deletion
+      option in the app's Settings.
+    </p>
+    <p>
+      Account deletion initiates removal of
+      your account and associated information.
+      Certain information may be retained
+      where required or permitted by
+      applicable law.
+    </p>
+    <p>
+      If you need assistance, contact
+      <a href="mailto:support@getmiru.app">
+        support@getmiru.app
+      </a>.
+    </p>
 
-  <footer>
-    <a href="/">Home</a>
-    &nbsp;·&nbsp;
-    <a href="/support.html">Support</a>
-    <p>© 2026 Miru</p>
-  </footer>
-</main>
+    <h2>9. Children's Privacy</h2>
+    <p>
+      Miru is not directed to children under 13.
+      If we become aware that we have collected
+      personal information from a child under 13
+      without appropriate authorization, we will
+      take steps to address it.
+    </p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy as Miru
+      evolves. Changes will be reflected by
+      updating the date at the top of this page.
+    </p>
+
+    <h2>11. Contact Us</h2>
+    <p>
+      For privacy questions or requests, contact
+      <a href="mailto:hello@getmiru.app">
+        hello@getmiru.app
+      </a>.
+    </p>
+
+    <footer>
+      <a href="/">Home</a>
+      &nbsp;·&nbsp;
+      <a href="/support.html">Support</a>
+      <p>© 2026 Miru</p>
+    </footer>
+  </main>
 </body>
 </html>
